@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Services & Contact</title>
+</head>
+<body>
+
+    <header>
+        <h1>TechSolutions</h1>
+        <p>Innovative technology solutions for your business</p>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a comprehensive range of technology services to help your business grow:</p>
+        <ul>
+            <li><strong>Web Development</strong> - Custom websites and web applications</li>
+            <li><strong>Mobile App Development</strong> - iOS and Android solutions</li>
+            <li><strong>Cloud Solutions</strong> - Migration and management services</li>
+            <li><strong>Data Analytics</strong> - Business intelligence and reporting</li>
+            <li><strong>UI/UX Design</strong> - User-centered design solutions</li>
+            <li><strong>IT Consulting</strong> - Strategic technology planning</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <p>Meet our team of experienced professionals:</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Expertise</th>
+                    <th>Years of Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sarah Johnson</td>
+                    <td>CEO</td>
+                    <td>Business Strategy</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>Michael Chen</td>
+                    <td>CTO</td>
+                    <td>Software Architecture</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Emily Rodriguez</td>
+                    <td>Lead Developer</td>
+                    <td>Full-stack Development</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>David Kim</td>
+                    <td>UX Designer</td>
+                    <td>User Experience</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Lisa Wong</td>
+                    <td>Data Scientist</td>
+                    <td>Machine Learning</td>
+                    <td>7</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="projects">
+        <h2>Recent Projects</h2>
+        <p>Here are some of our most successful recent projects:</p>
+        <ol>
+            <li>
+                <strong>E-commerce Platform</strong> - Built a scalable online store with custom CMS
+                <ul>
+                    <li>Increased client sales by 240%</li>
+                    <li>Reduced page load time by 65%</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Healthcare App</strong> - HIPAA-compliant patient management system
+                <ul>
+                    <li>Served 50+ medical practices</li>
+                    <li>99.9% uptime guarantee</li>
+                </ul>
+            </li>
+            <li>
+                <strong>Data Analytics Dashboard</strong> - Real-time business intelligence
+                <ul>
+                    <li>Integrated with 12+ data sources</li>
+                    <li>Reduced reporting time by 80%</li>
+                </ul>
+            </li>
+        </ol>
+    </section>
+
+    <section id="media">
+        <h2>Our Work in Action</h2>
+        <div>
+            <div>
+                <h3>Web Design Showcase</h3>
+                <img src="https://via.placeholder.com/600x400/3498db/ffffff?text=Web+Design" alt="Web design project screenshot">
+                <p>Responsive design for optimal viewing on all devices</p>
+            </div>
+            <div>
+                <h3>Mobile App Demo</h3>
+                <video controls poster="https://via.placeholder.com/600x400/e74c3c/ffffff?text=App+Demo">
+                    <source src="#" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Watch our mobile app in action</p>
+            </div>
+            <div> 
+                <h3>Client Testimonial</h3>
+                <audio controls>
+                    <source src="#" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <p>Hear what our clients say about our services</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Ready to start your project? Fill out the form below and we'll get back to you within 24 hours.</p>
+        
+        <form id="contact-form" action="#" method="post" novalidate>
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <div>
+                    <label for="first-name">First Name*</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" 
+                           required minlength="2" maxlength="50" autocomplete="given-name">
+                </div>
+                
+                <div>
+                    <label for="last-name">Last Name*</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" 
+                           required minlength="2" maxlength="50" autocomplete="family-name">
+                </div>
+                
+                <div>
+                    <label for="email">Email Address*</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" 
+                           required autocomplete="email">
+                </div>
+                
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" 
+                           pattern="[\+]\d{1,3}[-\s]?\d{3}[-\s]?\d{3}[-\s]?\d{4}" 
+                           autocomplete="tel">
+                    <small>Format: +[country code][number]</small>
+                </div>
+                
+                <div>
+                    <label for="company">Company Name</label>
+                    <input type="text" id="company" name="company" placeholder="Enter your company name" 
+                           autocomplete="organization">
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Project Details</legend>
+                
+                <div>
+                    <label for="service">Service Interested In*</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="mobile-dev">Mobile App Development</option>
+                        <option value="cloud">Cloud Solutions</option>
+                        <option value="data">Data Analytics</option>
+                        <option value="design">UI/UX Design</option>
+                        <option value="consulting">IT Consulting</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="budget">Estimated Budget (USD)</label>
+                    <input type="number" id="budget" name="budget" placeholder="Enter your budget" 
+                           min="1000" step="500">
+                </div>
+                
+                <div>
+                    <label for="timeline">Project Timeline</label>
+                    <input type="text" id="timeline" name="timeline" placeholder="When do you need this completed?" 
+                           list="timeline-options">
+                    <datalist id="timeline-options">
+                        <option value="ASAP">
+                        <option value="1-3 months">
+                        <option value="3-6 months">
+                        <option value="6+ months">
+                    </datalist>
+                </div>
+                
+                <div>
+                    <label for="message">Project Description*</label>
+                    <textarea id="message" name="message" placeholder="Describe your project in detail" 
+                              required minlength="20" maxlength="1000" rows="6"></textarea>
+                </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Additional Options</legend>
+                
+                <div>
+                    <label>
+                        <input type="checkbox" name="newsletter" checked>
+                        Subscribe to our monthly newsletter
+                    </label>
+                </div>
+                
+                <div>
+                    <label>
+                        <input type="checkbox" name="nda" required>
+                        I agree to sign an NDA if required*
+                    </label>
+                </div>
+                
+                <div>
+                    <label>Preferred Contact Method*</label>
+                    <label>
+                        <input type="radio" name="contact-method" value="email" checked required>
+                        Email
+                    </label>
+                    <label>
+                        <input type="radio" name="contact-method" value="phone" required>
+                        Phone
+                    </label>
+                </div>
+                
+                <div>
+                    <label for="reference">How did you hear about us?</label>
+                    <select id="reference" name="reference">
+                        <option value="" selected>Select an option</option>
+                        <option value="search">Search Engine</option>
+                        <option value="social">Social Media</option>
+                        <option value="referral">Referral</option>
+                        <option value="event">Industry Event</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </fieldset>
+            
+            <input type="submit" value="Submit Request">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TechSolutions. All rights reserved.</p>
+        <p>Contact: info@techsolutions.example.com | Phone: +1 (555) 123-4567</p>
+    </footer>
+
+</body>
+</html>
